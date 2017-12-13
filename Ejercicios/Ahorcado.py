@@ -4,7 +4,6 @@ vidas = 5
 letrasAdivinadas = []
 listaPalabras = ["manzana","pera","limon","uva"]
 palabra = m.generarPalabra(listaPalabras)
-#print(palabra)
 m.presentarLetrasGuiones(palabra )
 
 while vidas > 0:
