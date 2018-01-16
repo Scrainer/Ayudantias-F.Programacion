@@ -9,7 +9,7 @@ dic_ciudad={}
 dic_usuario={}
 for id,tweet in tweets.items():
        desc=tweet['description'].lower().split(" ")
-       set(desc)
+       desc=set(desc)
        interseccion=palabras.intersection(desc)
        cont=len(interseccion)
        if cont>=1:
