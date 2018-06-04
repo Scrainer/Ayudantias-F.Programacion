@@ -6,7 +6,7 @@ while minimo >= maximo:
 numero = float(input("Escriba un número entre " + str(minimo) + " y " + str(maximo) + ": "))
 contador = 0
 
-while minimo <= numero <= maximo:
+while minimo < numero < maximo:
     contador += 1
     numero = float(input("Escriba un número entre " + str(minimo) + " y " + str(maximo) + ": "))
 
