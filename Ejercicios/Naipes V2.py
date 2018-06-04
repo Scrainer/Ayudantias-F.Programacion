@@ -14,10 +14,12 @@ while pregunta!='salir':
         print("Se le ha dado otro naipe")
     elif pregunta=='b':
         pregunta='salir'
-print("Sus naipes al final de la partida son:",naipes)
-    print("La suma de sus naipes es:",sum(naipes))
-    if sum(naipes)>=20:
-        print("Ganó el juego!")
     else:
-        print("Ha perdido")
+        print('Ingrese una opción válida')
+print("Sus naipes al final de la partida son:",naipes)
+print("La suma de sus naipes es:",sum(naipes))
+if sum(naipes)>=20:
+    print("Ganó el juego!")
+else:
+    print("Ha perdido")
 print("Game Over")
